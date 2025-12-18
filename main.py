@@ -2,7 +2,7 @@
 # main.py
 # Programme principal
 
-from engine import start_engine, stop_engine, engine_status
+from engine import start_engine, stop_engine, engine_status,boost_engine
 from diagnostic import check_battery, check_fuel
 
 if __name__ == "__main__":
@@ -17,5 +17,4 @@ if __name__ == "__main__":
 
     running = stop_engine()
     engine_status(running)
-
-boost_engine()
+    boost_engine()
