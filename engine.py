@@ -16,5 +16,4 @@ def engine_status(running: bool):
     else:
         print("❌ Le moteur est arrêté.")
 
-def boost_engine():
-    print("💨 Mode turbo activé !")
+
